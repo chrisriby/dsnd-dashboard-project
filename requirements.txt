@@ -7,4 +7,9 @@ pandas==2.2.3
 pytest
 flake8
 ipython
-#### Add text to install the python-package here
+setuptools
+fastcore==1.7.19
+fastlite==0.0.13
+starlette==0.41.2
+sqlite-minutils==4.0.3
+-e ./python-package
