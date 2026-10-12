@@ -1,7 +1,31 @@
 
 # Software Engineering for Data Scientists 
 
-This repository contains starter code for the **Software Engineering for Data Scientists** final project. Please reference your course materials for documentation on this repository's structure and important files. Happy coding!
+### Setup
+
+Requires Python 3.10 or higher (developed with 3.12).
+
+```
+python -m venv venv
+venv\Scripts\activate        # macOS/Linux: source venv/bin/activate
+pip install -r requirements.txt
+```
+
+`requirements.txt` also installs the `employee_events` package from `python-package/`.
+
+### Run the dashboard
+
+```
+python report/dashboard.py
+```
+
+Then open http://localhost:5001.
+
+### Run the tests
+
+```
+pytest
+```
 
 ### Repository Structure
 ```
